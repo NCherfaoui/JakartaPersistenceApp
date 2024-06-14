@@ -9,5 +9,13 @@
       <working-dir>$ProjectFileDir$</working-dir>
       <auto-close enable="true" timeout="3" />
     </data-source>
+    <data-source source="LOCAL" name="myDB2" uuid="d54524a7-603b-4d12-a982-4f577803434e">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:myDB/myDB;shutdown=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <auto-close enable="true" timeout="3" />
+    </data-source>
   </component>
 </project>
