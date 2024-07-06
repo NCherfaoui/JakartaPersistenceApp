@@ -1,12 +1,10 @@
 package entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
-public class Employee {
+@Table(name = "acteurs")
+public class Acteur {
     @Id
     @GeneratedValue
     private int id;
@@ -15,13 +13,13 @@ public class Employee {
     @Column(name = "fName")
     private String firstName;
 
-   /* public Employee(int id, String name, String surname) {
-        this.id = id;
-        this.lName = name;
-        this.fName = surname;
-    }*/
+    public Acteur( String name, String surname) {
 
-    public Employee() {
+        this.lastName = name;
+        this.firstName = surname;
+    }
+
+    public Acteur() {
 
     }
 
