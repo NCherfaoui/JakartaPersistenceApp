@@ -1,3 +1,4 @@
+package app;
 import entity.Employee;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
